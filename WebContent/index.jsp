@@ -63,6 +63,12 @@ text-align: left;
 		<tr>
 			<td><a href="http://localhost:8080/CRUD-usuario/UsuarioController?opcion=listar">Mostrar usuarios</td>
 		</tr>
+		<tr>
+			<td><a href="http://localhost:8080/CRUD-usuario/ApartamentoController?opcion=crearapartamento">Crear apartamento</td>
+		</tr>
+		<tr>
+			<td><a href="http://localhost:8080/CRUD-usuario/ApartamentoController?opcion=listarapartamento">Mostrar apartamento</td>
+		</tr>
 	</table><br>
 </nav>
 		

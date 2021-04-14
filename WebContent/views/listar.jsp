@@ -37,8 +37,7 @@ background-color: #ddd;
 	<table border= "1">
 		<tr>
 			<td>Id</td>
-			<td>Nombre</td>
-			<td>Contraseña</td>
+			<td>Nombre</td>			
 			<td>Estado usuario</td>
 			<td>Rol usuario</td>
 			<td>Accion1</td>
@@ -49,8 +48,7 @@ background-color: #ddd;
 		<tr>
 			
 			<td><c:out value="${usuario.idUsuario}"></c:out></td>
-			<td><c:out value="${usuario.nombreUsuario}"></c:out></td>
-			<td><c:out value="${usuario.contrasena}"></c:out></td>
+			<td><c:out value="${usuario.nombreUsuario}"></c:out></td>			
 			<td><c:out value="${usuario.estadoUsuario}"></c:out></td>
 			<td><c:out value="${usuario.rolUsuario}"></c:out></td>
 			<td><a href="http://localhost:8080/CRUD-usuario/UsuarioController?opcion=eliminar&idUsuario=<c:out value="${usuario.idUsuario}"></c:out>">Eliminar</a></td>
