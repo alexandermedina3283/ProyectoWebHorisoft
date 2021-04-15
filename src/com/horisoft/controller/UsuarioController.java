@@ -62,6 +62,7 @@ public class UsuarioController extends HttpServlet {
 			}
 			
 			System.out.println("seleccionó listar");
+			
 		}else if (opcion.equals("editar")) {
 			int id=Integer.parseInt(request.getParameter("idUsuario"));
 			System.out.println("Editar id: "+id);

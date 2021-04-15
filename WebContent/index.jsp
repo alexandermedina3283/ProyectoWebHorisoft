@@ -69,6 +69,12 @@ text-align: left;
 		<tr>
 			<td><a href="http://localhost:8080/CRUD-usuario/ApartamentoController?opcion=listarapartamento">Mostrar apartamento</td>
 		</tr>
+		<tr>
+			<td><a href="http://localhost:8080/CRUD-usuario/MascotaController?opcion=crearMascota">Crear mascota</td>
+		</tr>
+		<tr>
+			<td><a href="http://localhost:8080/CRUD-usuario/MascotaController?opcion=listarMascota">Mostrar mascota</td>
+		</tr>
 	</table><br>
 </nav>
 		
