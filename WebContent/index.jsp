@@ -75,6 +75,12 @@ text-align: left;
 		<tr>
 			<td><a href="http://localhost:8080/CRUD-usuario/MascotaController?opcion=listarMascota">Mostrar mascota</td>
 		</tr>
+		<tr>
+			<td><a href="http://localhost:8080/CRUD-usuario/ParqueaderoController?opcion=crearParqueadero">Crear parqueadero</td>
+		</tr>
+		<tr>
+			<td><a href="http://localhost:8080/CRUD-usuario/ParqueaderoController?opcion=listarParqueadero">Mostrar parqueadero</td>
+		</tr>
 	</table><br>
 </nav>
 		

@@ -2,15 +2,15 @@ package com.horisoft.modelo;
 
 public class Parqueadero extends Apartamento {
 	
-	private int idParqueadero;
-	private String claseVehiculo;
+	private String idParqueadero;
+	private int claseVehiculo;
 	private String ubicacionParqueadero;
 	private String placaVehiculo;
 	private int modeloVehiculo;
 	private String colorVehiculo;
 	private String marcaVehiculo;
 
-	public Parqueadero(int apartamento, String torre, String estadoCartera, int idParqueadero, String claseVehiculo, String ubicacionParqueadero, String placaVehiculo, int modeloVehiculo, String colorVehiculo, String marcaVehiculo) {
+	public Parqueadero(int apartamento, String torre, String estadoCartera, String idParqueadero, int claseVehiculo, String ubicacionParqueadero, String placaVehiculo, int modeloVehiculo, String colorVehiculo, String marcaVehiculo) {
 		super(apartamento, torre, estadoCartera);
 		
 		this.idParqueadero=idParqueadero;
@@ -27,19 +27,19 @@ public class Parqueadero extends Apartamento {
 		super(apartamento, torre, estadoCartera);
 	}
 
-	public int getIdParqueadero() {
+	public String getIdParqueadero() {
 		return idParqueadero;
 	}
 
-	public void setIdParqueadero(int idParqueadero) {
+	public void setIdParqueadero(String idParqueadero) {
 		this.idParqueadero = idParqueadero;
 	}
 
-	public String getClaseVehiculo() {
+	public int getClaseVehiculo() {
 		return claseVehiculo;
 	}
 
-	public void setClaseVehiculo(String claseVehiculo) {
+	public void setClaseVehiculo(int claseVehiculo) {
 		this.claseVehiculo = claseVehiculo;
 	}
 
