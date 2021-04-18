@@ -12,9 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.horisoft.dao.MascotaDAO;
 import com.horisoft.dao.ParqueaderoDAO;
-import com.horisoft.modelo.Mascota;
 import com.horisoft.modelo.Parqueadero;
 
 /**

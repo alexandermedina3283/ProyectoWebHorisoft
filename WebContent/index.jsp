@@ -16,7 +16,7 @@ header h2{
 }
 
 nav{
-height: 250px;
+height: 300px;
 font-family: Arial;
 }
 
@@ -80,6 +80,12 @@ text-align: left;
 		</tr>
 		<tr>
 			<td><a href="http://localhost:8080/CRUD-usuario/ParqueaderoController?opcion=listarParqueadero">Mostrar parqueadero</td>
+		</tr>
+		<tr>
+			<td><a href="http://localhost:8080/CRUD-usuario/ResidenteController?opcion=crearResidente">Crear residente</td>
+		</tr>
+		<tr>
+			<td><a href="http://localhost:8080/CRUD-usuario/ResidenteController?opcion=listarResidente">Mostrar residente</td>
 		</tr>
 	</table><br>
 </nav>
