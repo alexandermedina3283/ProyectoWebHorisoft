@@ -141,7 +141,8 @@ public class ParqueaderoDAO {
 		try {
 			connection.setAutoCommit(false);
 			sql="update parqueadero_vehiculo set placa_vehiculo=?, modelo_vehiculo=?, color_vehiculo=?, marca_vehiculo=?, id_clase_vehiculo=? where id_parqueadero=?";
-			statement=connection.prepareStatement(sql);				
+			statement=connection.prepareStatement(sql);	
+			statement.setString(1,parqueadero.getIdParqueadero());
 			statement.setString(1, parqueadero.getPlacaVehiculo());	
 			statement.setInt(2, parqueadero.getModeloVehiculo());
 			statement.setString(3, parqueadero.getColorVehiculo());
